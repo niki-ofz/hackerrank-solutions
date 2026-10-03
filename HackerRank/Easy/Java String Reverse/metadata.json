@@ -1,0 +1,15 @@
+{
+  "title": "Java String Reverse",
+  "title_slug": "java-string-reverse",
+  "difficulty": "Easy",
+  "language": "java",
+  "url": "https://www.hackerrank.com/challenges/java-string-reverse/problem",
+  "tags": [],
+  "description": "A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward or forward.\n\nGiven a string , print `Yes` if it is a palindrome, print `No` otherwise.\n\n**Constraints**\n\n*  will consist at most  lower case english letters.\n\n**Sample Input**\n\n```\nmadam\n\n```\n\n**Sample Output**\n\n```\nYes\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-03T16:53:01.875Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "java-string-reverse"
+}
