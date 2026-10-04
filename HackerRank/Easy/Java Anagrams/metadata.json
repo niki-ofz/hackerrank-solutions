@@ -1,0 +1,15 @@
+{
+  "title": "Java Anagrams",
+  "title_slug": "java-anagrams",
+  "difficulty": "Easy",
+  "language": "java",
+  "url": "https://www.hackerrank.com/challenges/java-anagrams/problem",
+  "tags": [],
+  "description": "Two strings,  and , are called anagrams if they contain all the same characters in the same frequencies.  For this challenge, the test is not case-sensitive. For example, the anagrams of `CAT` are `CAT`, `ACT`, `tac`, `TCA`, `aTC`, and `CtA`.\n\n**Function Description**\n\nComplete the *isAnagram* function in the editor.\n\n*isAnagram* has the following parameters:\n\n* *string a:* the first string\n\n* *string b:* the second string\n\n**Returns**\n\n* *boolean:* If  and  are case-insensitive anagrams, return true. Otherwise, return false.\n\n**Input Format**\n\nThe first line contains a string . **\nThe second line contains a string .\n\nConstraints**\n\n*\n\n* Strings  and  consist of English alphabetic characters.\n\n* The comparison should NOT be case sensitive.\n\n**Sample Input 0**\n\n```\nanagram\nmargana\n\n```\n\n**Sample Output 0**\n\n```\nAnagrams\n\n```\n\n**Explanation 0**\n\n| Character |  Frequency: `anagram` |  Frequency: `margana` |\n\n| `A` or `a` |  3 |  3 |\n\n| `G` or `g` |  1 |  1 |\n\n| `N` or `n` |  1 |  1 |\n\n| `M` or `m` |  1 |  1 |\n\n| `R` or `r` |  1 |  1 |\n\nThe two strings contain all the same letters in the same frequencies, so we print \"Anagrams\".\n\n**Sample Input 1**\n\n```\nanagramm\nmarganaa\n\n```\n\n**Sample Output 1**\n\n```\nNot Anagrams\n\n```\n\n**Explanation 1**\n\n| Character |  Frequency: `anagramm` |  Frequency: `marganaa` |\n\n| `A` or `a` |  3 |  4 |\n\n| `G` or `g` |  1 |  1 |\n\n| `N` or `n` |  1 |  1 |\n\n| `M` or `m` |  2 |  1 |\n\n| `R` or `r` |  1 |  1 |\n\nThe two strings don't contain the same number of `a`'s and `m`'s, so we print \"Not Anagrams\".\n\n**Sample Input 2**\n\n```\nHello\nhello\n\n```\n\n**Sample Output 2**\n\n```\nAnagrams\n\n```\n\n**Explanation 2**\n\n| Character |  Frequency: `Hello` |  Frequency: `hello` |\n\n| `E` or `e` |  1 |  1 |\n\n| `H` or `h` |  1 |  1 |\n\n| `L` or `l` |  2 |  2 |\n\n| `O` or `o` |  1 |  1 |\n\nThe two strings contain all the same letters in the same frequencies, so we print \"Anagrams\".",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-04T17:27:44.252Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "java-anagrams"
+}
