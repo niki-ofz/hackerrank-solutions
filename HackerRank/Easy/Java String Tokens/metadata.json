@@ -1,0 +1,15 @@
+{
+  "title": "Java String Tokens",
+  "title_slug": "java-string-tokens",
+  "difficulty": "Easy",
+  "language": "java",
+  "url": "https://www.hackerrank.com/challenges/java-string-tokens/problem",
+  "tags": [],
+  "description": "Given a string, , matching the regular expression `[A-Za-z !,?._'@]+`, split the string into *tokens*. We define a token to be one or more consecutive English alphabetic letters. Then, print the number of tokens, followed by each token on a new line.\n\n**Note:** You may find the [String.split](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#split-java.lang.String-) method helpful in completing this challenge.\n\n**Input Format**\n\nA single string, .\n\n**Constraints**\n\n*\n\n*  is composed of *any* of the following: English alphabetic letters, blank spaces, exclamation points (`!`), commas (`,`), question marks (`?`), periods (`.`), underscores (`_`), apostrophes (`'`), and at symbols (`@`).\n\n**Output Format**\n\nOn the first line, print an integer, , denoting the number of tokens in string  (they *do not* need to be unique). Next, print each of the  tokens on a new line in the same order as they appear in input string .\n\n**Sample Input**\n\n```\nHe is a very very good boy, isn't he?\n\n```\n\n**Sample Output**\n\n```\n10\nHe\nis\na\nvery\nvery\ngood\nboy\nisn\nt\nhe\n\n```\n\n**Explanation**\n\nWe consider a token to be a contiguous segment of alphabetic characters. There are a total of  such tokens in string , and each token is printed in the same order in which it appears in string .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-07T15:44:34.760Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "java-string-tokens"
+}
