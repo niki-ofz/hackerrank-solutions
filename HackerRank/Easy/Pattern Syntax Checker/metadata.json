@@ -1,0 +1,15 @@
+{
+  "title": "Pattern Syntax Checker",
+  "title_slug": "pattern-syntax-checker",
+  "difficulty": "Easy",
+  "language": "java",
+  "url": "https://www.hackerrank.com/challenges/pattern-syntax-checker/problem",
+  "tags": [],
+  "description": "Using **Regex**, we can easily match or search for patterns in a text. Before searching for a pattern, we have to specify one using some well-defined syntax.\n\nIn this problem, you are given a pattern. You have to check whether the syntax of the given pattern is valid.\n\n**Note**: In this problem, a regex is only valid if you can compile it using the  [Pattern.compile](http://docs.oracle.com/javase/6/docs/api/java/util/regex/Pattern.html#compile%28java.lang.String%29) method.\n\n**Input Format**\n\nThe first line of input contains an integer , denoting the number of test cases. The next  lines contain a string of any printable characters representing the pattern of a regex.\n\n**Output Format**\n\nFor each test case, print `Valid` if the syntax of the given pattern is correct. Otherwise, print `Invalid`. Do not print the quotes.\n\n**Sample Input**\n\n```\n3\n([A-Z])(.+)\n[AZ[a-z](a-z)\nbatcatpat(nat\n\n```\n\n**Sample Output**\n\n```\nValid\nInvalid\nInvalid\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-08T15:33:04.965Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "pattern-syntax-checker"
+}
